@@ -40,7 +40,9 @@ Antes de começar, certifique-se de ter instalado:
 
 
 
+![gato 2](https://github.com/user-attachments/assets/aab21b09-2da4-40e9-9a2f-207d82628adf) 
 ### 🛠️ Passo a Passo
+
 
 1. **Clone o repositório**
    ```sh
