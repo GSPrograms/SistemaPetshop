@@ -18,15 +18,15 @@ Sistema de agendamento de Petshop.
 </p>
 
 ## 📂 **Estrutura do Repositório**
-
 ```
 Temp/
    Temp/                                               # Temp
    ├── Temp/                                           # Temp
    │    ├── Temp/              
 ```
-## Requisitos de Conclusão da Atividade
-- Registro com E-mail e senha criptografados.
+
+## Requisitos de Conclusão da Atividade. 
+- Registro com E-mail e senha criptografados .![gato](https://github.com/user-attachments/assets/336d0843-c347-4a15-acac-e5ddd10320c2)
 - Middleware para segurança.
 - Login Jason Web Token (JWT) e retorno de token.
 - Cadastro e Agendamentos.
@@ -37,6 +37,8 @@ Temp/
 Antes de começar, certifique-se de ter instalado:
 - [GitHub Desktop](https://desktop.github.com/download/)
 - [Visual Studio Code](https://code.visualstudio.com/)
+
+
 
 ### 🛠️ Passo a Passo
 
