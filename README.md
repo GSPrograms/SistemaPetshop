@@ -25,8 +25,13 @@ Temp/
    ├── Temp/                                           # Temp
    │    ├── Temp/              
 ```
+## Requisitos de Conclusão da Atividade
+- Registro com E-mail e senha criptografados.
+- Middleware para segurança.
+- Login Jason Web Token (JWT) e retorno de token.
+- Cadastro e Agendamentos.
 
-## 🛠 Instalação e Execução
+
 
 ### 🔧 Pré-requisitos
 Antes de começar, certifique-se de ter instalado:
