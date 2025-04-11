@@ -3,7 +3,7 @@
 Utilizei do BrModelo para produzir o Modelo Conceitual e Modelo Lógico do Banco de dados que sera utilizado para este projeto.
 
 <p align = "center">
-<a> <img src ="https://github.com/user-attachments/assets/17c29254-a528-4fa4-b647-c0f0c043579c"></a>
+  <img src="https://github.com/user-attachments/assets/3553fd7b-a821-4a85-9a6a-24208180f660">
 </p>
 Mantive o Modelo lógico Simples e direto para fácil compreensão e modificações futuras.
 
