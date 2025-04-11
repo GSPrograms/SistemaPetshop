@@ -1,5 +1,5 @@
 # BrModelo 
-## Petshop
+## Modelo Conceitual
 Utilizei do BrModelo para produzir o Modelo Conceitual e Modelo Lógico do Banco de dados que sera utilizado para este projeto.
 
 <p align = "center">
