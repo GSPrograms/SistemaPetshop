@@ -1,39 +1,45 @@
+
+# BrModelo
+
+## Modelo Lógico
 <p align = "center">
-<img src="https://github.com/user-attachments/assets/a6c6921c-1114-40fc-860e-e93bd094886a">
+<img src="https://github.com/user-attachments/assets/d8b2ea65-572b-4223-93d2-2e85e1f0e02e">
 </p>
 
-```/* Lógico_3: */
-
+```
+/* Lógico_1: */
 CREATE TABLE cliente (
-    CPF VARCHAR(11),
-    Email VARCHAR(255),
-    Endereco VARCHAR(255),
+    CPF VARCHAR(24) NOT NULL,
+    Email VHARCHAR(255),
+    Endereco VARCHAR(255) NOT NULL,
     Id INT PRIMARY KEY,
-    Nome VARCHAR(255),
-    Telefone VARCHAR(11)
+    Nome VARCHAR(255) NOT NULL,
+    Telefone VARCHAR(24) NOT NULL
 );
 
 CREATE TABLE pet (
     Id INT PRIMARY KEY,
     Nome VARCHAR(255),
-    Raca VARCHAR(255),
-    Idade NCHAR(3),
-    Especie VARCHAR(100),
-    Sexo CHAR(1),
-    Tamanho FLOAT
+    Raca VARCHAR(255) NOT NULL,
+    Idade INT NOT NULL,
+    Tamanho VARCHAR(24) NOT NULL,
+    Sexo VARCHAR(24) NOT NULL
 );
 
 CREATE TABLE PetShop (
-    Id INT PRIMARY KEY,
-    Nome VARCHAR(255),
-    Localizacao VARCHAR(255)
+    Nome VARCHAR(255) NOT NULL,
+    Localizacao VARCHAR(255) NOT NULL,
+    Email VARCHAR(255),
+    Telefone VARCHAR(24) NOT NULL,
+    CPNJ VARCHAR((24) NOT NULL,
+    Id INT PRIMARY KEY
 );
 
 CREATE TABLE Servico (
     Descricao TEXT,
     Preco FLOAT,
     Id INT PRIMARY KEY,
-    MediaTempo VARCHAR(24)
+    MediaTempo VARCHAR(255)
 );
 
 CREATE TABLE dono_de (
@@ -52,8 +58,8 @@ CREATE TABLE oferece (
 );
 
 CREATE TABLE Frequenta (
-    fk_PetShop_id INT,
-    fk_cliente_id INT
+    fk_cliente_Id INT,
+    fk_PetShop_Id INT
 );
  
 ALTER TABLE dono_de ADD CONSTRAINT FK_dono_de_1
@@ -87,6 +93,12 @@ ALTER TABLE oferece ADD CONSTRAINT FK_oferece_2
     ON DELETE SET NULL;
  
 ALTER TABLE Frequenta ADD CONSTRAINT FK_Frequenta_1
-    FOREIGN KEY (fk_PetShop_id???, fk_cliente_id???)
-    REFERENCES ??? (???);
+    FOREIGN KEY (fk_cliente_Id)
+    REFERENCES cliente (Id)
+    ON DELETE SET NULL;
+ 
+ALTER TABLE Frequenta ADD CONSTRAINT FK_Frequenta_2
+    FOREIGN KEY (fk_PetShop_Id)
+    REFERENCES PetShop (Id)
+    ON DELETE SET NULL;
 ```
