@@ -3,9 +3,9 @@
 Utilizei do BrModelo para produzir o Modelo Conceitual e Modelo Lógico do Banco de dados que sera utilizado para este projeto.
 
 <p align = "center">
-  <img src="https://github.com/user-attachments/assets/3553fd7b-a821-4a85-9a6a-24208180f660">
+  <img src="https://github.com/user-attachments/assets/201b802f-a4b8-4d27-b142-2ed96dfc392e">
 </p>
-Mantive o Modelo lógico Simples e direto para fácil compreensão e modificações futuras.
+Mantive o Modelo Conceitual Simples e direto para fácil compreensão e modificações futuras.
 
 Foram usados as Entidades:
 ``` 
@@ -20,7 +20,7 @@ Pet -> Cliente: deve Possuir um Dono(cliente) e pode possuir vários donos.
 
 
 -------------Cliente e PetShop-------------
-Cliente -> PetShop: Não é obrigatório registro para acessar ao petshop e só pode possuir 1 registro.
+Cliente -> PetShop: Não é obrigatório registro para acessar ao petshop e só pode possuir qua registro.
 PetShop -> Cliente: pode possuir nenhum ou muitos registros de clientes.
 
 
