@@ -8,7 +8,7 @@
 Sistema de agendamento de Petshop.
 
 <p align="center">
-<a><img src="https://github.com/user-attachments/assets/6d98d531-1763-4abb-8994-fdd3ad602a91" alt="Placeholder" border="0"></a>
+<a><img src="https://github.com/user-attachments/assets/87f4af51-bfe7-4d7c-82c8-ddf880ee9a27" alt="Placeholder" border="0"></a>
 </p>
 
 <P>Feito por:</P>
@@ -20,22 +20,37 @@ Sistema de agendamento de Petshop.
 
 ## Descrição
 <p align="center">
-  Temp
+  Este projeto é minha primeira tentativa de aprendizado de desenvolvimento Full Stack Com banco de dados MySQL com tempo limite utilizando sistema de login com verificação de token JWT, Registro e utilização de banco de dados.
+  Como foi minha primeira tentativa de criação de site, existem erros que podiam ser corrigidos, códigos soltos e outros.
+O Site consta com Sistema de login e registro, Sistema de Registro de Pets com imagens, Sistema de cadastro de Serviço, Sistema de Delete de serviços e Sistema De Delete de Pets.
 </p>
 
 ## 📂 **Estrutura do Repositório**
 ```
-Temp/
-   Temp/                                               # Temp
-   ├── Temp/                                           # Temp
-   │    ├── Temp/              
+PetShop/
+  ├── backend/                                              
+     ├── Controlers/
+     ├── Middleware/
+     ├── Routes/
+     ├── uploads/
+  ├──FrontEnd
+  ├──Imagens
+  ├──Models
+  ├──Node_Modules
+Banco_petShop.sql
+README.md          
+              
 ```
 
-## Requisitos de Conclusão da Atividade. 
-- Registro com E-mail e senha criptografados .![gato](https://github.com/user-attachments/assets/336d0843-c347-4a15-acac-e5ddd10320c2)
-- Middleware para segurança.
-- Login Jason Web Token (JWT) e retorno de token.
-- Cadastro e Agendamentos.
+## Requisitos de Conclusão da Atividade.  
+Requisitos funcionais (mínimo 3)                                                 .![gato](https://github.com/user-attachments/assets/336d0843-c347-4a15-acac-e5ddd10320c2)
+1. O sistema deve permitir o cadastro de novos usuários.
+2. O sistema deve permitir agendar banho com imagem do pet.
+3. O usuário deve poder visualizar, editar e excluir agendamentos.
+Requisitos não funcionais (mínimo 3)
+1. As imagens devem ser salvas em uma pasta específica no servidor.
+2. As senhas devem ser criptografadas usando bcrypt.
+3. A autenticação deve utilizar JWT com middleware para rotas privadas.
 
 
 
@@ -50,14 +65,9 @@ Antes de começar, certifique-se de ter instalado:
 ### 🛠️ Passo a Passo
 
 
-1. **Clone o repositório**
+1. **Baixe o zip**
    ```sh
-   - Clique no botão verde "<> Code" no topo da tela inicial deste projeto.
-   - Clique em "Open with GitHub Desktop".
-   - Faça login no GitHub Desktop.
-   - Clique em "File", "Clone Repository" e, depois, em "URL".
-   - Insira a seguinte URL: [https://github.com/GSPrograms/SistemaPetshop]
-   - Clique em "Clone".
+   Baixe o Arquivo zip Do PetShop
    ```
 2. **Abra o VSCode**
    ```sh
@@ -70,7 +80,7 @@ Antes de começar, certifique-se de ter instalado:
    ```sh
    Clique no símbolo com quatro quadrados no canto esquerdo de seu VSCode para abrir a barra de pesquisa de extensões.
    Procure e instale a extensão "Live Server" no VSCode.
-   Agora, clique no "index.html" que está dentro da pasta "Frontend" (em src) e, depois, clique em "Go Live".
+   Abra o Arquivo README e siga o Passo a Passo Detalhado.
    ```
 
 ## 🎓 Referência
