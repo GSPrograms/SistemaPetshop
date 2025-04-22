@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../FrontEnd/css/registrarPet.css">
+    <title>registrarPet</title>
+</head>
+
+<body>
+    <div class="containerBG">
+        <form id="uploadForm" class="">
+            <input type="file" id="imagemPet" name="imagemPet" accept="image/*" required>
+            <div class="container">
+                <!--registrar imagem do pet-->
+                <img src="../imagens/Placeholder.png" alt="Imagem do pet" id="preview"
+                    style="width: 250px; height: 250px; padding: auto; border-radius: 10%;">
+                <!--registrar dados do pet-->
+                <input type="text" id="Nome" name="Nome" placeholder="Digite o nome do animal" required>
+                <input type="text" id="Raca" name="Raca" placeholder="Digite a raca do animal" required>
+                <input type="text" id="Idade" name="Idade" placeholder="Digite a idade do animal" required>
+            </div>
+            <!--descrição em texto livre do pet-->
+            <textarea id="descricao" name="descricao" placeholder="Descreva o animal"
+                style=" width: 90%;height: 100px; position: relative; left: 3%; resize: none;"></textarea>
+            <h2 style="position: relative; left: 3%; top: 35px;">Sexo</h2>
+            <div class="containerRadios" style="position: relative; left: 1%; top: 20px;">
+                <label for="sexoMacho">Macho</label>
+                <input class="radio" type="radio" id="sexoMacho" name="sexo" value="Macho" required>
+
+
+                <label for="sexoFemea">Femea</label>
+                <input class="radio" type="radio" id="sexoFemea" name="sexo" value="Femea" required>
+
+            </div>
+            <h2 style="position: relative; left: 3%; top: 35px;">Porte</h2>
+            <div class="containerRadios" style="position: relative; left: 1%; top: 20px;">
+                <label for="portePequeno">Pequeno</label>
+                <input class="radio" type="radio" id="portePequeno" name="porte" value="Pequeno" required>
+
+                <label for="porteMedio">Medio</label>
+                <input class="radio" type="radio" id="porteMedio" name="porte" value="Medio" required>
+
+                <label for="porteGrande">Grande</label>
+                <input class="radio" type="radio" id="porteGrande" name="porte" value="Grande" required>
+            </div>
+            <button type="button" class="RegistrarPet" onclick="registrarPet();">Registrar</button>
+    </div>
+    </form>
+    </div>
+</body>
+<script src="../FrontEnd/js/registrarPet.js"></script>
+<script src="../FrontEnd/js/scriptsFrontEnd.js"></script>
+
+</html>
