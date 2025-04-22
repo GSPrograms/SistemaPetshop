@@ -1,0 +1,212 @@
+body{
+    background-color: aquamarine;
+    font-family: "Delius", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+.container{
+    position: relative;
+    display: flex;
+    justify-content: left;
+    align-items: top;
+    padding-bottom: 100px;
+    height: 65vh; 
+    width: 60vw;
+    padding-bottom: 200px;
+    left: 20%;
+}
+::-webkit-scrollbar{
+    width: 10px;
+}
+::-webkit-scrollbar-track{
+    background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb{
+    background: #888;
+}
+::-webkit-scrollbar-thumb:hover{
+    background: #555;
+}
+
+.agendamentos{
+    position: relative;
+    display: block;
+    flex-direction: row;
+    justify-content: left;
+    margin-top:30px ;
+    left: 5%;
+    top: -5%;
+    width: 90%;
+    height: 80vh;
+    background-color: rgba(255, 255, 255, 0.952);
+    border-radius: 10% 0% 0% 10%;
+    border-width: 4px;
+    overflow-y: scroll;
+    
+}
+
+
+.agendamento{
+    position: relative;
+    display: block;
+    flex-direction: row;
+    justify-content: left;
+    margin-top:30px ;
+    left: 5%;
+    width: 90%;
+    height: 230px;
+    background-color: rgb(243, 233, 233);
+    border-width: 4px;
+    border-radius: 5%;
+}
+
+.agendamento img{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    left: 5%;
+    top: 5%;
+    border-radius: 10%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.agendamento .nome{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    left: 40%;
+    top: 0%;
+    border-radius: 10%;
+}
+.agendamento .IdPet{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    left: 55%;
+    top: 0%;
+    border-radius: 10%;
+}
+.agendamento .servico{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    left: 35%;
+    top: 30%;
+    border-radius: 10%;
+}
+.agendamento .servico:hover{
+    cursor: pointer;
+
+
+}
+
+.agendamento .descricao{    
+    position: absolute;
+    width: 30%;
+    height: 160px;
+    left: 65%;
+    bottom: 0%;
+    border-radius: 5%;
+    overflow-y: scroll;
+    scrollbar-width: thin;
+    scrollbar-color: #888 #f1f1f1;
+    border: 2px solid rgb(14, 102, 73);
+    background-color: rgb(210, 218, 226);
+    padding: 10px;
+
+}
+.form-editar{
+    position: relative;
+    display: block;
+    width: 40vw;
+    height: 50vh;
+    left: -3%;
+    top: 15%;
+    bottom: 0%;
+    border-radius: 5%;
+    border: 2px solid rgb(14, 102, 73);
+    background-color: rgb(210, 218, 226);
+    padding: 10px;
+    z-index: 2;
+}
+.form-editar .radios{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    margin-top:30px ;
+    left: 5%;
+    width: 90%;
+    height: fit-content;
+    background-color: rgb(243, 233, 233);
+    border-width: 4px;
+    border-radius: 5%;
+}
+.form-editar .radiosServico{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    margin-top:30px ;
+    left: 5%;
+    width: 90%;
+    height: fit-content;
+    background-color: rgb(243, 233, 233);
+    border-width: 4px;
+    border-radius: 5%;
+}
+.JanelaEditar{
+    position: absolute;
+    display: none;
+    width: 40vw;
+    height: 25vh;
+    left: 30%;
+    top: 10%;
+    bottom: 0%;
+    border-radius: 5%;
+    border: 2px solid rgb(14, 102, 73);
+    background-color: rgb(210, 218, 226);
+    padding: 10px;
+    z-index: 2;
+}
+
+
+
+
+.agendamento .horario{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    left: 35%;
+    top: 50%;
+    border-radius: 10%;
+}
+.agendamento .cancelar{
+    position: absolute;
+    width: 100px;
+    height: 50px;
+    left: 35%;
+    bottom: 5%;
+    border-radius: 10%;
+}
+.agendamento .editar{
+    position: absolute;
+    width: 100px;
+    height: 50px;
+    left: 50%;
+    bottom: 5%;
+    border-radius: 10%;
+}
+.agendamento .preco{
+    position: absolute;
+    width: 100px;
+    height: 50px;
+    left: 35%;
+    bottom: 24%;
+    border-radius: 10%;
+}
+
+.agendamento .data{
+    position: absolute;
+}
