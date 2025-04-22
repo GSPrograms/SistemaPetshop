@@ -58,6 +58,7 @@ Requisitos não funcionais (mínimo 3)
 Antes de começar, certifique-se de ter instalado:
 - [GitHub Desktop](https://desktop.github.com/download/)
 - [Visual Studio Code](https://code.visualstudio.com/)
+- [Wampserver](https://wampserver.aviatechno.net/)
 
 
 
