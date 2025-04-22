@@ -1,6 +1,6 @@
 import express from 'express'
 import authRoutes from './authroutes.js'
-import db from '../db copy.js.js'
+import db from '../db.js'
 import multer from 'multer'
 import upload from '../uploadconfig.js'
 

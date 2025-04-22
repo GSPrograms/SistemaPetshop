@@ -10,7 +10,7 @@ async function escolherAnimal() {
     while (true) {
         const animaisDiv = document.getElementById("animais")
         const animais = ["gato.jpeg", "cachorro.jpg", "ourico.jpeg", "peixe.webp", "papagaio.jpeg"]
-        const textos = ["Banho e Tosa com os melhores veterinários para seu pet arrazar", "Vacinação para seu pet se manter saudável", "Corte de Unhas para seu pet se sentir bem", "Adote Pets e a vida se torna mais feliz"]
+        const textos = ["Banho e Tosa com os melhores veterinários para seu pet arrasar", "Vacinação para seu pet se manter saudável", "Corte de Unhas para seu pet se sentir bem", "Adote Pets e a vida se torna mais feliz"]
         const numero = NumeroRandomico(animais.length)
         const textoramdomico = NumeroRandomico(textos.length)
         const animal = "../imagens/" + animais[numero]
