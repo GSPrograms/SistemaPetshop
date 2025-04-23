@@ -5,20 +5,25 @@ body{
     font-style: normal;
 }
 .Descricao{
-    border-color: aqua;
     border-width: 3px;
-    border-radius: 10%;
+    border-radius: 5%;
     font-family: "Delius", cursive;
+    width: 300px;
+    height: 200px;
+     position: relative; 
+     left: 170px; 
+     top: 60px;
 }
 
 
 
 .Agendar{
     width: 200px;
-    height: 30px;
+    height: 60px;
     position: absolute;
-    left: 12%;
-    background-color: rgb(174, 231, 212);
+    left: 16%;
+    top: 900px;
+    background-color: rgba(110, 6, 6, 0.911);
     border-radius: 10%;
     border-color: rgba(21, 104, 76, 0.61);
     border-width: 3px;
@@ -26,7 +31,7 @@ body{
 }
   
 .radios{
-    position: relative;
+    position: absolute;
     flex-direction: column;
     justify-content: left;
     align-items: left;
@@ -60,7 +65,7 @@ body{
     justify-content: left;
     align-items: left;
     height: 200px;
-    width: 600px;
+    width: 20%;
     left: 20%;
     background-color: aliceblue;
 }
@@ -71,24 +76,25 @@ body{
     flex-direction: column;
     justify-content: left;
     align-items: center;
-    height: 95vh;
+    height: fit-content;
     width: 80vw;
     left: 10%;
+    padding-bottom: 450px; 
     background-color: rgb(246, 248, 250);
     box-shadow: #000000 0px 0px 5px;
     border-radius: 10%;
 }
 
 .seusPets{
-    position: absolute;
+    position: relative;
     display: block;
     flex-direction: row;
     justify-content: left;
     margin-top:30px ;
     left: 16%;
-    top: 66%;
+    bottom: 350px;
     width: 60%;
-    height: 230px;
+    height: 200px;
     background-color: rgb(128, 255, 212 , 0.4);
     border-width: 4px;
     overflow-x: hidden;
@@ -99,7 +105,7 @@ body{
     margin-bottom: 20px;
     margin-left: 20px;
     position: relative;
-    height: 200px;
+    height: 150px;
     width: 80%;
     left: 00%;
     border-color: rgba(128, 255, 213, 0.61);
