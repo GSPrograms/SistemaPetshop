@@ -58,6 +58,7 @@ Requisitos não funcionais (mínimo 3)
 Antes de começar, certifique-se de ter instalado:
 - [Visual Studio Code](https://code.visualstudio.com/)
 - [Wampserver](https://wampserver.aviatechno.net/)
+- [MySQL Workbench](https://www.mysql.com/products/workbench/)
 
 
 
@@ -67,14 +68,14 @@ Antes de começar, certifique-se de ter instalado:
 
 1. **Baixe o zip**
    ```sh
-   Baixe o Arquivo zip Do PetShop
+   Baixe o Arquivo zip Do PetShop2
    ```
 2. **Abra o VSCode**
    ```sh
    Pressione as teclas "Win + S" ou, se preferir, abra a barra de pesquisa windows manualmente.
    Pesquise por "vscode" ou "Visual Studio Code" e abra-o.
    No VSCode clique em "File", "Open Folder" e abra a pasta que você clonou no caminho que você escolheu.
-   Por exemplo: "C:\Users\nome\Downloads\SistemaPetshop". Este é só um exemplo, você precisa encontrar onde você salvou.
+   Por exemplo: "C:\Users\nome\Downloads\PetShop2". Este é só um exemplo, você precisa encontrar onde você salvou.
    ```
 3. **Execute**
    ```sh
