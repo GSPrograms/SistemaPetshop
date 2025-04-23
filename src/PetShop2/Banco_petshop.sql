@@ -35,4 +35,5 @@ CREATE TABLE agendamento (
     Descricao TEXT,
     FOREIGN KEY (IdPet) REFERENCES pet(Id) ON DELETE CASCADE,
     FOREIGN KEY (user_id) REFERENCES cliente(id) ON DELETE CASCADE
-);  
+    
+);

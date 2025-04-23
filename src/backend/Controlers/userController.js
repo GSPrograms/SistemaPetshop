@@ -1,5 +1,5 @@
 // src/controllers/controllers.js
-import db from '../db.js';
+import db from '../db copy.js.js';
 
 
 /* funções relacionadas a usercontrolls*/ 
