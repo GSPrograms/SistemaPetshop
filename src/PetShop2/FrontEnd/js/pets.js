@@ -106,5 +106,5 @@ function editarPet() {
 }
 
 carregarPets();
-
+renderizarPets();
 console.log("pets.js carregado!");

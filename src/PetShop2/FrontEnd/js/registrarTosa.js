@@ -1,4 +1,9 @@
 
+function redirecionar(rota) {
+    window.location.href = rota;
+}
+
+
 async function buscarPets() {
     const response = await fetch('http://localhost:3000/api/pets', {
         method: 'GET',
@@ -129,9 +134,6 @@ async function agendarTosa() {
 
    
 
-function redirecionar(rota) {
-    window.location.href = rota;
-}
 
 
 
